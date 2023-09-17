@@ -1,5 +1,7 @@
 import { StyleSheet, Text, View } from "react-native";
 
+import { Container } from "./styles";
+
 export function Groups() {
   return (
     <View style={styles.container}>
