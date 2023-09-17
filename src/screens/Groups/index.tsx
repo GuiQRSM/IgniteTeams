@@ -4,9 +4,9 @@ import { Container } from "./styles";
 
 export function Groups() {
   return (
-    <View style={styles.container}>
+    <Container>
       <Text style={styles.text}>Groups</Text>
-    </View>
+    </Container>
   );
 }
 
