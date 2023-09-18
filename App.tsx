@@ -4,7 +4,7 @@ import theme from "./src/theme";
 
 export default function App() {
   return;
-  <ThemeProvider theme={}>
+  <ThemeProvider theme={theme}>
     <Groups />
   </ThemeProvider>;
 }
