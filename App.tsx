@@ -9,7 +9,7 @@ import {
 } from "@expo-google-fonts/roboto";
 
 export default function App() {
-  const [fontsLoader] = useFont({ Roboto_400Regular, Roboto_700Bold });
+  const [fontsLoader] = useFonts({ Roboto_400Regular, Roboto_700Bold });
 
   return (
     <ThemeProvider theme={theme}>
