@@ -13,4 +13,7 @@ export const Logo = styled.Image`
   height: 55px;
 `;
 
-export const BackIcon = styled(CaretLeft)``;
+export const BackIcon = styled(CaretLeft).attrs(({ theme }) => ({
+  size: 36,
+  color: theme.COLORS.WHITE,
+}))``;
