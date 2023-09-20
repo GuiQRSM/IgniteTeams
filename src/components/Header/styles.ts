@@ -12,3 +12,5 @@ export const Logo = styled.Image`
   width: 46px;
   height: 55px;
 `;
+
+export const BackIcon = styled(CaretLeft)``;
