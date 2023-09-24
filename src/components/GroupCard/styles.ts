@@ -15,13 +15,13 @@ margin-botton: 12px;
 
 export Title = styled.Text`
 font-size: ${({theme}) => theme.FONT_SIZE.MD}px;
-color: ${{theme} => theme.COLORS.GRAY_600};
-font-family: ${(theme) => theme.FONT_FAMILY.REGULAR};
+color: ${({theme}) => theme.COLORS.GRAY_200};
+font-family: ${({theme}) => theme.FONT_FAMILY.REGULAR};
 `;
 
 export const Icon = styled(usersThree).attrs(({theme}) => ({
-  size: 32.
-  color: theme.COLORS.GREEN_700,
+  size: 32,
+  color: theme.COLORS.GREEN_700
 }))`
  margin-right: 20px;
 `
