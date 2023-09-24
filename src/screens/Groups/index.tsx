@@ -8,8 +8,7 @@ export function Groups() {
     <S.Container>
       <Header showBackButton />
       <HighLight title="Turmas" subtitle="Jogue com a sua turma!" />
-      import {GroupCard} from "@components/GroupCard";
-      <GroupCard title="Calma Cara!" />;
+      <GroupCard title="Calma Cara!" />
     </S.Container>
   );
 }
