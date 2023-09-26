@@ -6,7 +6,7 @@ import { GroupCard } from "@components/GroupCard";
 export function Groups() {
   return (
     <S.Container>
-      <Header showBackButton />
+      <Header />
       <HighLight title="Turmas" subtitle="Jogue com a sua turma!" />
       <GroupCard title="Calma Cara!" />
     </S.Container>
