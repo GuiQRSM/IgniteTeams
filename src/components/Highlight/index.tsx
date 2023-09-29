@@ -1,8 +1,8 @@
 import { Container, Title, Subtitle } from "./style";
 
 type Props = {
-  title: String;
-  subtitle: String;
+  title: string;
+  subtitle: string;
 };
 
 export function Highlight({ title, subtitle }: Props) {
