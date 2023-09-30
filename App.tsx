@@ -1,6 +1,6 @@
 import { Groups } from "@screens/Groups";
-import { ThemeProvider } from "styled-components";
-import theme from "./src/theme";
+import { ThemeProvider } from "styled-components/native";
+import theme from "@theme";
 import {
   useFonts,
   Roboto_400Regular,
